@@ -9,8 +9,8 @@
 </head>
 <body class="background">
     <header>
-        <h1>Bienvenidos a la carrera de Desarrollo Full Stack</h1>
-        <h2>Completa el formulario para realizar la inscripcion</h2>
+        <h1>Bienvenidos a Bluechip IT</h1>
+        <h2>Completa el formulario para realizar la inscripcion a los cursos</h2>
     
         <form name="fvalida" class="formulario">
         <table>
@@ -27,6 +27,10 @@
             <td><input type="text" name="dni" size="15" maxlength="8"></td>
         </tr>
         <tr>
+            <td>Correo Electronico:</td>
+            <td><input type="text" name="email" size="15" maxlength="100"></td>
+        </tr>
+        <tr>
                <td>Cursos:</td>
                <td>
                <select name=curso>
@@ -35,11 +39,12 @@
                <option value="Javascript">Javascript
                <option value=Reactjs>React Js
                <option value="Programacion Backend">Programacion Backend
+               <option value="Fullstack">Fullstack
                </select>
                </td>
         </tr>
         <tr class="button">
-            <td colspan="2"><input type="button" value="Enviar"  onclick="valida_envia()"></td>
+            <td colspan="3"><input type="button" value="Enviar"  onclick="valida_envia()"></td>
         </tr>
         </table>
         </form>
